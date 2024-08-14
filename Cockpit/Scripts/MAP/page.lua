@@ -14,9 +14,8 @@ picture.tex_coords		 = {{0, 0},
                             {1, 1},
                             {0, 1}}
 picture.material		 = "render_target_3"
-picture.isvisible = true
+picture.isvisible = false
 picture.level = 1
-
 Add(picture)
 
 

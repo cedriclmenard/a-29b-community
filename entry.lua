@@ -67,7 +67,7 @@ make_view_settings('A-29B', ViewSettings, SnapViews)
 mount_vfs_sound_path (current_mod_path.."/Sounds/")
 
 local cfg_path = current_mod_path.."/ConfigFM.lua"
-dofile(cfg_path)  
+dofile(cfg_path)
 
 
 local FM = 
@@ -81,6 +81,6 @@ local FM =
 }
 
 ----------------------------------------------------------------------------------------
-make_flyable('A-29B', current_mod_path..'/Cockpit/Scripts/' , FM , current_mod_path..'/comm.lua')
+make_flyable(self_ID, current_mod_path..'/Cockpit/Scripts/' , FM , current_mod_path..'/comm.lua')
 ----------------------------------------------------------------------------------------
 plugin_done()

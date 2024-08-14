@@ -8,7 +8,7 @@ ambient_color_from_devices   = {50, 50, 40}
 ambient_color_from_panels	 = {35, 25, 25}
 -- fc3_cockpit_draw_args = true
 -- ed_fm_set_fc3_cockpit_draw_args_v2
--- use_external_shape=flase
+-- use_external_shape=false
 local ft_to_meter = 0.3048
 
 dusk_border					 = 0.4
