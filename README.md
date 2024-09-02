@@ -1,11 +1,11 @@
 # DCS World A-29B Super Tucano
 
-This is a free, open source, SFM, A-29B independent module for DCS World. By independent it is meant that it does not require any other modules to work.
+This is a free open source EFM A-29B independent module for DCS World. By independent it is meant that it does not require any other modules to work.
 
-The development is in a very early stage, but the author has decided on releasing it in hopes it will help others on the implementation of modern aircraft systems using SFM.
+The development is in a very early stage, but the author has decided on releasing it in hopes it will help others on the implementation of modern aircraft systems using EFM/SFM.
 
-All aircraft systems are implemented in Lua and can be freely used in other non-paid DCS World Modules.
-
+All aircraft systems implemented in Lua can be freely used in other non-paid DCS World Modules.
+All aircraft systems implemented in C++ can be freely used in other non-paid public open-source DCS World Modules on request.
 
 # Download
 
@@ -45,6 +45,15 @@ All aircraft systems are implemented in Lua and can be freely used in other non-
 [A-29 Super Tucano](https://forums.eagle.ru/topic/265017-a-29-super-tucano/)
 
 # Changelog
+
+## Version 0.7.0 - 10 Sep 2024
+
+### Fixes
+- FLIR in DCS MT
+- FLIR camera position stutter
+
+### Added
+- Rocket CCIP cue distance indicator
 
 ## Version 0.6.0 - 30 Oct 2023
 
